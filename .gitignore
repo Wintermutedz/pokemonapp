@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+**/node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# builds / binaries
+build/
+dist/
+*.exe
+*.dll
+*.zip
+*.tar
+*.tgz
+
+# env & local
+.env
+.env.*
+uploads/
+.cache/
+.DS_Store
+Thumbs.db
